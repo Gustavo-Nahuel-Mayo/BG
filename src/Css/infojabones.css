@@ -1,0 +1,46 @@
+
+.content_jabones{
+    width: 100%;
+    *margin-bottom:2rem;
+    display: grid;
+    *gap: 2rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+    
+}
+
+
+.info{
+    align-items: center;
+    *min-width: 28rem;
+    display: grid;
+    transition: all;
+    justify-content: center;
+    *margin-bottom: 2rem;
+}
+
+.especialidad1 img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    *background-color: rgba(0, 0, 0, 0.383);
+    *box-shadow: 1px 1px black;
+    display: grid;
+    margin-bottom: 3rem;
+    *padding-left: 2%;
+    *padding-right: 2%;
+    *gap: 2rem;
+    *grid-template-columns: 1fr;
+    *justify-content: center;
+    *border-radius: 60px;
+    justify-content: center;
+    
+}
+
+#instru1, #instru2, #instru3{
+    *box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.609);
+
+}
+

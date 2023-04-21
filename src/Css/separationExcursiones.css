@@ -1,0 +1,77 @@
+.separationex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+   
+    
+    
+}
+
+#separadorex{
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    
+    
+}
+
+
+
+.separationex #separadorexh2{
+    position: absolute;
+    *left: 57%;
+    margin-top: 0;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 3px -3px 3px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-excursiones{
+    position: absolute;
+    margin-top: 15%;
+    *margin-left: 60%;
+    font-size: 20px;
+    width: max-content;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    background: linear-gradient(90deg, rgba(255, 251, 7, 0.628), rgba(255, 251, 7, 0.628));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button-excursiones:hover{
+    transform: scale(105%);
+    
+}
+
+@media(max-width: 768px){
+    .separationex{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    #separadorex{
+        border-radius: 0%;
+        height: auto;
+    }
+
+    .separationex #separadorexh2{
+        font-size: 35px;
+    }
+
+    .button-excursiones{
+        margin-top: 25%;
+        font-size: 15px;
+    }
+}
+

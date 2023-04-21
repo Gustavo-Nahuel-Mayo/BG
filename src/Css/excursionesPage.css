@@ -1,0 +1,93 @@
+.contenedorExcursiones{
+    position: relative;
+    background-color:rgba(4, 158, 24, 0.524);
+}
+
+.excursiones-texto-contenedor{
+    padding: 5%;
+}
+
+#div1, #div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 5%;
+}
+
+#div1{
+    background-color: beige;
+    margin-top: 50px;
+    text-align: end;
+    justify-content: center;
+}
+#div2{
+    background-color: rgba(5, 88, 9, 0.438);
+}
+
+#imagenExcursiones{
+    width: 700px;
+    height: 100vh;
+    border-radius: 0px;
+    box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+
+}
+
+#imagenExcursiones2{
+    width: 650px;
+    height: 100vh;
+    border-radius: 0px;
+    box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+}
+
+
+
+.parallax-section {
+    height: 100vh; /* Make sure the section takes up the full viewport height */
+    overflow: hidden; /* Hide any content that overflows the section */
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  @media(max-width: 768px){
+    #div1, #div2{
+        display: block !important;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    .excursiones-texto-contenedor{
+        justify-content: center;
+        width: 100vw;
+        text-align: center;
+        margin-right: 15%;
+    }
+
+    .excursiones-titulo{
+        padding-top: 30px;
+        width: 100vw;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .excursiones-p{
+        display: inline-block;
+        justify-content: center;
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 15%;
+        
+    }
+  }

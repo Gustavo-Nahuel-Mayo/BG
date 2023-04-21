@@ -1,0 +1,28 @@
+#escolaresCarousel, #escolaresCarousel1 {
+    object-fit: contain;
+    width: 500px; /* Set a fixed width for the carousel */
+    margin: auto; /* Center the carousel horizontally */
+    box-shadow: 1px 1px 17px 1px rgb(0, 0, 0);
+    -webkit-box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 1px 1px 17px 1px rgba(0,0,0,0.46);
+    height: 400px;
+  }
+
+  @media(max-width: 768px){
+
+    #escolaresCarousel, #escolaresCarousel1{
+        height: min-content;
+        width: 90%;
+        background-color: rgba(188, 188, 188, 0.259);
+    }
+
+    #excursionimg{
+        background-color: black !important;
+        height: 100%;
+    }
+
+    .carousel-inner1{
+        width: 100%;
+        height: 300px;
+    }
+}

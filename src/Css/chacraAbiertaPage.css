@@ -1,0 +1,84 @@
+.todoChacraAbierta{
+    margin-top: 50px;
+    justify-content: center;
+    
+    
+}
+.tituloTextoChacraAbierta{
+    width: 50vw;
+    padding: auto;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.pChacraAbierta{
+    justify-content: center;
+}
+
+
+.contenedorChacraAbierta{
+    background-color: rgb(201, 197, 0, 0.505);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto auto;
+    align-items: center;
+    padding: 5%;
+}
+
+.contenedorTextoChacraAbierta{
+    justify-content: center;
+    margin:auto auto;
+    padding: 50px;
+    align-items: center;
+    width: 50vw;
+}
+
+.carouselChacraAbierta{
+    padding: 5%;
+
+}
+
+.contenedorDiferencia{
+    justify-content: center;
+    margin: auto auto;
+    background-color: rgba(6, 109, 9, 0.509);
+    width: 100vw;
+
+}
+
+.h3Diferencia{
+    width: 100vw;
+    color: rgb(35, 35, 35);
+    justify-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+}
+
+.pDiferencia{
+    width: 100vw;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom:5%;
+    padding-top: 2%;
+}
+
+.productosChacraAbierta{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+}
+
+.textoProductosChacraAbierta{
+    padding: 5%;
+}
